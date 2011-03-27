@@ -51,7 +51,7 @@ body {
   color: #4E4E4E;
   background-color: #F2F2F2;
   font: 17px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-rendering: optimizelegibility;
+  /* text-rendering: optimizelegibility; */
 }
 
 a { 
@@ -117,7 +117,6 @@ a:hover, a:active {
   position: absolute;
   top: 175px;
   left: 200px;
-  display: none;
 }
 
 /* 
