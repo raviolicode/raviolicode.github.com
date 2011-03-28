@@ -37,21 +37,20 @@ abbr,acronym {
  */
 
 /** Color Palette 
-  *
-  * navigation: #403A3A 
-  * selected: #A00E00
-  * hover: #CC2300
-  * body background: #F2F2F2 
-  * body color: #4E4E4E
- 
-**/
+ *
+ * navigation: #403A3A 
+ * selected: #A00E00
+ * hover: #CC2300
+ * body background: #F2F2F2 
+ * body color: #4E4E4E
+
+ **/
 
 body {
   margin: 0;
   color: #4E4E4E;
   background-color: #F2F2F2;
   font: 17px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
-  /* text-rendering: optimizelegibility; */
 }
 
 a { 
@@ -68,93 +67,104 @@ a:hover, a:active {
 
 
 /* 
- * Navigation bar 
+ * Header
  */
 
-#navigation {
-  padding: 20px 0px 54px 0px;
+#header {
+  /* padding: 20px 0px 54px 0px; */
+  padding: 10px 13px 63px;
   background: #403A3A;
 }
 
-#navigation ul {
-  clear: right;  
-  float: right;
+#header h1 {
+  color: white; 
+  font-size: 2em;
+  font-style:bold;  
+  float:right;
 }
 
-#navigation ul li {
-  display: block;
-  float: left;
-  list-style-type: none;
-}
-
-#navigation ul li a {
-  padding: 30px 0;
-}
-
-#navigation ul li a:hover {
-  background-color: #CC2300;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-}
-
-#navigation ul li a.selected {
-  background-color: #A00E00;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-}
-
-#navigation ul li span {
-  font-size: 14px;
-  font-weight: normal;
-  padding: 6px 10px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-  color: #F2F2F2;
-} 
 
 /* 
  * Content 
  */
 
 #content {
-  position: absolute;
-  top: 175px;
-  left: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: auto;
+  width: 900px;
+}
+
+#content div {
+  margin: 10px 15px 0px 0px;
+}
+
+#content div.block {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 25px;  
+  padding-bottom: 40px;
+  overflow: auto;
+}
+
+
+#content h2 {
+  color: #A00E00;
+  font-size:24px;
+  margin: 10px 0 21px;
+}
+
+#content em {
+  font-style:italic;
 }
 
 /* 
  * About Me 
  */
 
-#content.about {
+#about {
   background: url('../images/Ravioli.gif') no-repeat top right;
-  width: 700px;
   height: 230px;
-  padding: 20px;
-}
-
-#content.about ul {
-  margin-top: 70px;
+  padding: 25px 284px 40px 0;
 }
 
 /*
  * What I like
  */
 
-#like div{
-  float: left;
+#like {
+  margin-bottom: 20px;
+}
+
+#like div {
   margin-right: 100px;
+  float:left;
 }
 
 #like ul {
-  margin-top: 13px;
+  margin-left: 10px;
+}
+
+#like ul li {
+  list-style-type: disc;
+  margin-left: 15px;
 }
 
 /*
  * Contact Me 
  */
 
-#contact ul {
-  margin-top: 13px;
+#contact {
+  clear: both;
 }
 
-#contact ul li {
-  list-style-type: none;
+#contact div ul {
+  margin-top: 13px;
+  float: left;
+  overflow: auto; 
+}
+
+
+#contact div ul li {
+  float:left;
+  margin-right:5px;
 }
