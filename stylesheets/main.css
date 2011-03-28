@@ -157,14 +157,18 @@ a:hover, a:active {
   clear: both;
 }
 
-#contact div ul {
-  margin-top: 13px;
+#contact ul {
   float: left;
-  overflow: auto; 
+  overflow:auto;
 }
-
 
 #contact div ul li {
   float:left;
   margin-right:5px;
+}
+
+#contact p.social {
+  float: left;
+  line-height: 30px;
+  margin-right: 20px;
 }
