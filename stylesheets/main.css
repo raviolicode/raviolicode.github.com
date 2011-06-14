@@ -113,9 +113,6 @@ a:hover, a:active {
   margin: 10px 0 21px;
 }
 
-#content em {
-  font-style:italic;
-}
 
 /* 
  * About Me 
@@ -162,7 +159,7 @@ a:hover, a:active {
   overflow:auto;
 }
 
-#contact div ul li {
+#contact ul li {
   float:left;
   margin-right:5px;
 }
